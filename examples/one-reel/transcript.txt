@@ -1,0 +1,12 @@
+Title: Azure AI Foundry evals in 60 seconds
+Speaker: Suhail
+
+Hey builders — today we spin up an Azure AI Foundry project, deploy a chat model,
+and run a tiny faithfulness eval before anything hits production.
+
+Step one: create a Foundry project and connect your model deployment.
+Step two: add three ground-truth Q&A pairs as an eval dataset.
+Step three: fail the pipeline if faithfulness drops below your threshold.
+
+Common mistake: shipping a prompt change on Friday without an eval gate.
+Takeaway: treat evals like unit tests for AI apps.

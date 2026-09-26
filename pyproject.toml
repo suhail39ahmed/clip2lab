@@ -1,0 +1,18 @@
+[project]
+name = "clip2lab"
+version = "0.1.0"
+description = "transcript.txt → lab folder with README, quiz.md, skill stub"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+clip2lab = "clip2lab.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
